@@ -9,14 +9,14 @@ int main()
 {   
 	float S, a, h;
 	setlocale(LC_CTYPE, "ukr");
-	cout<<"Vvedit ñòîðîíó òðèêóòíèêà:";
+	cout<<"Vvedit storony trukytnuka:";
 	cin>>a;
 	h=a*2;
 	S=0.5*a*h;
-	cout<<"Âèñîòà òðèêóòíèêà: "<<h<<" îä.\n";
-	cout<<"Ïëîùà òðèêóòíèêà: ";
+	cout<<"Ã‚Ã¨Ã±Ã®Ã²Ã  Ã²Ã°Ã¨ÃªÃ³Ã²Ã­Ã¨ÃªÃ : "<<h<<" Ã®Ã¤.\n";
+	cout<<"ÃÃ«Ã®Ã¹Ã  Ã²Ã°Ã¨ÃªÃ³Ã²Ã­Ã¨ÃªÃ : ";
 	printf("%.2f", S);
-	cout<<" êâ. îä.";
+	cout<<" ÃªÃ¢. Ã®Ã¤.";
 	return 0;
 	getch();
 }
