@@ -14,6 +14,6 @@ int main()
 	cout<<"Vvedit y: ";
 	cin>>y;
 	G=(x+sin(y+5.2)*log(abs(x*y)))/(sqrt(x*x+pow(y,4))-cos((x*y)/(sqrt(x*x+y*y))));
-	cout<<"Â³äïîâ³äü: "<<G;
+	cout<<"Vuvedit: "<<G;
 	getch();
 }
