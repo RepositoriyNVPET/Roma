@@ -9,11 +9,11 @@ int main()
 { 	
 	float x,y,G;
 	setlocale(LC_CTYPE, "ukr");
-	cout<<"Vvedit x: ";
+	cout<<"авпвп x: ";
 	cin>>x;
-	cout<<"Vvedit y: ";
+	cout<<"вапвап y: ";
 	cin>>y;
 	G=(x+sin(y+5.2)*log(abs(x*y)))/(sqrt(x*x+pow(y,4))-cos((x*y)/(sqrt(x*x+y*y))));
-	cout<<"Vuvedit: "<<G;
+	cout<<"вапвапва: "<<G;
 	getch();
 }
