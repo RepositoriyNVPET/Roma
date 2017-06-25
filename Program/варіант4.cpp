@@ -9,7 +9,7 @@ int main()
 {   
 	float S, a, h;
 	setlocale(LC_CTYPE, "ukr");
-	cout<<"¬вед≥ть сторону трикутника:";
+	cout<<"Vvedit сторону трикутника:";
 	cin>>a;
 	h=a*2;
 	S=0.5*a*h;
